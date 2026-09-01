@@ -55,7 +55,7 @@ fi
 
 # --- 5. Activate the plugins in ~/.zshrc ---------------------------------------
 # zsh-syntax-highlighting must be sourced last, so keep it last in the list.
-PLUGINS_LINE='plugins=(git zsh-autosuggestions zsh-syntax-highlighting)'
+PLUGINS_LINE='plugins=(zsh-autosuggestions zsh-syntax-highlighting)'
 
 if grep -q '^plugins=(' "$HOME/.zshrc"; then
     sed -i "s/^plugins=(.*)$/$PLUGINS_LINE/" "$HOME/.zshrc"
