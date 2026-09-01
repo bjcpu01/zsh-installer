@@ -27,7 +27,7 @@ fi
 
 # --- 1. Update the system -----------------------------------------------------
 export DEBIAN_FRONTEND=noninteractive
-sudo apt update && sudo apt upgrade -y
+sudo apt update
 
 # --- 2. Install zsh and its dependencies --------------------------------------
 sudo apt install zsh git curl -y
